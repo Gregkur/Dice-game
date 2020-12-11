@@ -1,14 +1,26 @@
-.RollDice-container{
+.RollDice-container {
   flex-direction: row;
   display: grid;
   text-align: center;
   justify-content: center;
   margin-top: 10vh;
 }
-.RollDice-button{
+.RollDice-button {
   grid-column-end: 3;
   display: flex;
   display: flex;
   justify-content: center;
   grid-column-start: 1;
+}
+button {
+  width: 300px;
+  border: none;
+  color: white !important;
+  background-color: rgb(86, 153, 211);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 42px;
+  border-radius: 23px;
+}
+button:focus {
+  outline: none;
 }

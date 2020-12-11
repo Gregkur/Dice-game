@@ -1,0 +1,14 @@
+.RollDice-container{
+  flex-direction: row;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.RollDice-button{
+  grid-column-end: 3;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  grid-column-start: 1;
+}
